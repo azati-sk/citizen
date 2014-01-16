@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CITIZEN SFA</title>
+	<link rel="stylesheet" href="assets/css/jquery.mobile-1.3.0.min.css" />
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/nf-additions.css" rel="stylesheet">
+	<script src="assets/royalslider/jquery-1.8.3.min.js"></script>
+	<script src="assets/js/vendor/video.min.js"></script>
+
+	<script src="assets/royalslider/jquery.royalslider.min.js"></script>
+
+	<script>
+		var global_SalesRep = "" + "<%# GetSalesRepID() %>";
+	</script>
+	<script src="assets/js/vendor/jquery.transit.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/nf-main.js"></script>
+	<script src="assets/js/vendor/jquery.mobile-1.3.0.min.js"></script>
+</head>
+<body>
+	<div class="face-mask"></div>
+	<nav id="mobile-nav" data-theme="a" class="panel">
+		<!-- panel content goes here -->
+		<div class="content-top">
+			<h3>Menu</h3>
+		</div>
+
+		<div id="menu">
+			<h1>Navigation</h1>
+			<ul>
+				<li>
+					<a href="" data-slide="2" style="background-image: none!important;">Citizen</a>
+				</li>
+
+				<li>
+					<a href="">Men's Launch</a>
+				</li>
+				<ul>
+					<li>
+						<a href="" data-slide="10">Primo</a>
+					</li>
+					<li>
+						<a href="" data-slide="11">Nighthawk A&bull;T</a>
+					</li>
+				</ul>
+
+			</ul>
+		</div>
+	</nav>
+    
+	<!-- /panel -->
+	<div data-role="page" id="citizen-choose-customer">
+		<div data-role="content">
+			<img alt=" " class="rsImg position-absolute" src="images/01-Citizen-App-Chapt1-Locked.jpg" />
+			<div id="select-customer-container">
+				<div id="select-customer" class="rsNoDrag rsABlock" data-move-effect="bottom">
+					
+					<ul id="select-customer-element" data-role="listview" data-inset="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Enter Account Name..."
+						class="client rsNoDrag">
+						
+						<li data-filtertext="Anything to Search"><a href="javascript:void(0)">Special client item, look at source!</a></li>
+					</ul>
+					<a href="javascript:void(0);" style="display: block; text-align: center; text-shadow: none; position: absolute; padding-top: 39px; left: 35%; margin-top: 20px;
+						font-size: 0.69em; line-height: 1.2em;"
+						class="smlCircle smlPlay select-customer-custom">Go&nbsp;&nbsp;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="main-body">
+		<div data-role="panel" id="nav-left" data-theme="a" data-position="left">
+			<!-- panel content goes here -->
+			<p>Use the button below to close your session.</p>
+			<p>Note: This will clear any items in your cart.</p>
+			<a href="javascript:void(0)" class="citizen-close-session" data-role="button" data-theme="a" data-icon="delete" data-inline="true">Close Session</a>
+		</div>
+		<!-- /panel -->
+		<div data-role="content">
+			<div class="sliderContainer fullWidth clearfix">
+				<div id="full-width-slider" class="royalSlider fullWidth rsMinW">
+					<div class="rsContent">
+						<a href="javascript:panelToggle('nav-left');" class="nav-handle lock-section">
+							<img src="images/tab_arrow-left.png">
+						</a>
+						<img alt=" " class="rsImg" src="images/01-Citizen-App-Chapt1-Locked.jpg" />
+					</div>
+
+					<!-- 0.1 Log In -->
+
+					<!-- 0.2 Animation -->
+					<div class="rsContent no-menutab animation text-center" style="background-image: url(images/light-ray-bg.jpg)" data-animation="play-out">
+						<a href="javascript:panelToggle('nav-left');" class="nav-handle lock-section">
+							<img src="images/tab_arrow-left.png">
+						</a>
+						<div class="bg-contain position-absolute fade-in2" style="background: url(img/animation/Citizen_CampaignBook_Locked-360-01.png) no-repeat center center;
+							width: 1920px; height: 1020px; top: 48%; right: 50%; margin-top: -450px; margin-right: -941px;">
+						</div>
+						<div class="fullwidthHolder" style="position: absolute; bottom: 0; right: 0;">
+							<a href="javascript:void(0);" class="smlCircle playCircle" data-lightbox="#video-360-intro" style="display: block; z-index: 10; text-align: center; bottom: 40px;
+								text-shadow: none; right: 80px; position: absolute; margin: -106px 0 0 -183px;"></a>
+						</div>
+						<div class="bg-contain position-absolute fade-in2 stayStill" style="background: url(img/animation/Citizen_CampaignBook_Locked-360-02.png) no-repeat center center;
+							width: 1920px; height: 1020px; top: 48%; right: 50%; margin-top: -450px; margin-right: -941px;">
+						</div>
+						<div class="bg-contain position-absolute fade-in2" style="background: url(img/animation/Citizen_CampaignBook_Locked-360-03.png) no-repeat center center;
+							width: 1920px; height: 1020px; top: 48%; right: 50%; margin-top: -450px; margin-right: -941px;">
+						</div>
+						<div class="bg-contain position-absolute fade-in2" style="background: url(img/animation/Citizen_CampaignBook_Locked-360-04.png) no-repeat center center;
+							width: 1920px; height: 1020px; top: 48%; right: 50%; margin-top: -450px; margin-right: -941px;">
+						</div>
+						<div class="bg-contain position-absolute fade-in2" style="background: url(img/animation/Citizen_CampaignBook_Locked-360-05.png) no-repeat center center;
+							width: 1920px; height: 1020px; top: 48%; right: 50%; margin-top: -450px; margin-right: -941px;">
+						</div>
+						<div class="bg-contain position-absolute fade-in2" style="background: url(img/animation/Citizen_CampaignBook_Locked-360-06.png) no-repeat center center;
+							width: 1920px; height: 1020px; top: 48%; right: 50%; margin-top: -450px; margin-right: -941px;">
+						</div>
+						<div class="bg-contain position-absolute fade-in2" style="background: url(img/animation/Citizen_CampaignBook_Locked-360-07.png) no-repeat center center;
+							width: 1920px; height: 1020px; top: 48%; right: 50%; margin-top: -450px; margin-right: -941px;">
+						</div>
+						<div class="bg-contain position-absolute fade-in2" style="background: url(img/animation/Citizen_CampaignBook_Locked-360-08.png) no-repeat center center;
+							width: 1920px; height: 1020px; top: 48%; right: 50%; margin-top: -450px; margin-right: -941px;">
+						</div>
+						<div class="bg-contain position-absolute fade-in2" style="background: url(img/animation/Citizen_CampaignBook_Locked-360-09.png) no-repeat center center;
+							width: 1920px; height: 1020px; top: 48%; right: 50%; margin-top: -450px; margin-right: -941px;">
+						</div>
+						<div class="bg-contain position-absolute fade-in2" style="background: url(img/animation/Citizen_CampaignBook_Locked-360-10.png) no-repeat center center;
+							width: 1920px; height: 1020px; top: 48%; right: 50%; margin-top: -450px; margin-right: -941px;">
+						</div>
+
+						<div class="bg-contain position-absolute fade-in2 stayStill" style="background: url(img/animation/Citizen_CampaignBook_Locked-360-11.png) no-repeat center center;
+							width: 1920px; height: 1020px; top: 48%; right: 50%; margin-top: -450px; margin-right: -941px;">
+						</div>
+						<div class="bg-contain position-absolute fade-in2 stayStill" style="background: url(img/animation/Citizen_CampaignBook_Locked-360-12.png) no-repeat center center;
+							width: 1920px; height: 1020px; top: 48%; right: 50%; margin-top: -450px; margin-right: -941px;">
+						</div>
+					</div>
+
+
+					<!-- 0.4 Power of Eco Drive -->
+					<div class="rsContent " style="background: url(img/final/Citizen_CampaignBook_Locked-HIW.jpg)">
+						<a href="javascript:panelToggle('nav-left');" class="nav-handle lock-section">
+							<img src="images/tab_arrow-left.png">
+						</a>
+
+						<a href="javascript:void(0);" class="display-block position-absolute smlCircle playCircle" style="bottom: 40px; right: 80px; margin: -66px 0 0 -66px;"
+							data-lightbox="#video-howitworks"></a>
+					</div>
+
+					<!-- 0.5 Chart -->
+					<div class="rsContent no-menutab animation" style="background-image: url(images/light-ray-bg.jpg)" data-animation="barchart">
+						<a href="javascript:panelToggle('nav-left');" class="nav-handle lock-section">
+							<img src="images/tab_arrow-left.png">
+						</a>
+						<header class="testHeader">
+							<div class="center-body">
+								<h1 class="uppercase">WHAT DO YOUR RETAIL
+									<br>
+									PEERS SAY ABOUT CITIZEN?
+								</h1>
+							</div>
+						</header>
+						<div class="centered-container">
+							<a href="javascript:panelToggle('nav-left');" class="nav-handle lock-section">
+								<img src="images/tab_arrow-left.png">
+							</a>
+							<div style="background: url(img/new/chart_locked-1_gfx-magazine.png) no-repeat center center; width: 463px; height: 525px; top: 48%; right: 50%; margin-top: -320px;
+								margin-right: -901px; background-size: contain"
+								class="bg-contain position-absolute scale-up">
+							</div>
+							<div style="background: url(img/new/chart_locked-1_headline.png) no-repeat center center; width: 713PX; height: 270px; top: 50%; left: 50%; margin-top: -285px;
+								margin-left: -360px; z-index: 1000;"
+								class="bg-contain position-absolute scale-up">
+								<a href="javascript:void(0);" class="display-block position-absolute top-selling-btn scale-up" data-lightbox="#img-top-selling"></a>
+							</div>
+							<ul id="barChart-animated">
+								<li>
+									<label></label>
+									<div class="bar" data-percentage="126"></div>
+								</li>
+								<li>
+									<label>Seiko</label><div class="bar" data-percentage="69"></div>
+								</li>
+								<li>
+									<label>Belair</label><div class="bar" data-percentage="48"></div>
+								</li>
+								<li>
+									<label>Bulova</label><div class="bar" data-percentage="43"></div>
+								</li>
+								<li>
+									<label>Rolex</label><div class="bar" data-percentage="39"></div>
+								</li>
+								<li>
+									<label>Pulsar</label><div class="bar" data-percentage="33"></div>
+								</li>
+								<li>
+									<label>Skagen</label><div class="bar" data-percentage="23"></div>
+								</li>
+								<li>
+									<label>Fossil</label><div class="bar" data-percentage="20"></div>
+								</li>
+								<li>
+									<label>TAG Heuer</label><div class="bar" data-percentage="14"></div>
+								</li>
+								<li>
+									<label>Tissot</label><div class="bar" data-percentage="12"></div>
+								</li>
+								<li>
+									<label>Victorinox</label><div class="bar" data-percentage="12"></div>
+								</li>
+								<li>
+									<label>Bering</label><div class="bar" data-percentage="11"></div>
+								</li>
+								<li>
+									<label>Michele</label><div class="bar" data-percentage="11"></div>
+								</li>
+								<li>
+									<label>Movado</label><div class="bar" data-percentage="10"></div>
+								</li>
+								<li>
+									<label>Casio</label><div class="bar" data-percentage="8"></div>
+								</li>
+								<li>
+									<label>Reactor</label><div class="bar" data-percentage="8"></div>
+								</li>
+								<li>
+									<label>Accutron</label><div class="bar" data-percentage="7"></div>
+								</li>
+								<li>
+									<label>Luminox</label><div class="bar" data-percentage="7"></div>
+								</li>
+								<li>
+									<label>Philip Stein</label><div class="bar" data-percentage="7"></div>
+								</li>
+								<li>
+									<label>Ball</label><div class="bar" data-percentage="6"></div>
+								</li>
+								<li>
+									<label>Hamilton</label><div class="bar" data-percentage="6"></div>
+								</li>
+								<li>
+									<label>Michael Kors</label><div class="bar" data-percentage="6"></div>
+								</li>
+								<li>
+									<label>Bertucci</label><div class="bar" data-percentage="5"></div>
+								</li>
+								<li>
+									<label>Breitling</label><div class="bar" data-percentage="5"></div>
+								</li>
+								<li>
+									<label>Caravelle</label><div class="bar" data-percentage="5"></div>
+								</li>
+								<li>
+									<label>Raymond Weil</label><div class="bar" data-percentage="5"></div>
+								</li>
+								<li>
+									<label>ESQ</label><div class="bar" data-percentage="4"></div>
+								</li>
+								<li>
+									<label>Patek Philippe</label><div class="bar" data-percentage="4"></div>
+								</li>
+								<li>
+									<label>Speidel</label><div class="bar" data-percentage="4"></div>
+								</li>
+								<li>
+									<label>Timex</label><div class="bar" data-percentage="4"></div>
+								</li>
+								<li>
+									<label>Charles-Hubert</label><div class="bar" data-percentage="3"></div>
+								</li>
+								<li>
+									<label>Oris</label><div class="bar" data-percentage="3"></div>
+								</li>
+								<li>
+									<label>Technomarine</label><div class="bar" data-percentage="3"></div>
+								</li>
+								<li>
+									<label>Ebel</label><div class="bar" data-percentage="2"></div>
+								</li>
+								<li>
+									<label>Ernest Borel</label><div class="bar" data-percentage="2"></div>
+								</li>
+								<li>
+									<label>Ice</label><div class="bar" data-percentage="2"></div>
+								</li>
+								<li>
+									<label>Longines</label><div class="bar" data-percentage="2"></div>
+								</li>
+								<li>
+									<label>Nixon</label><div class="bar" data-percentage="2"></div>
+								</li>
+								<li>
+									<label>Omega</label><div class="bar" data-percentage="2"></div>
+								</li>
+								<li>
+									<label>Pandora</label><div class="bar" data-percentage="2"></div>
+								</li>
+								<li>
+									<label>Tavannes</label><div class="bar" data-percentage="2"></div>
+								</li>
+								<li>
+									<label>Wenger</label><div class="bar" data-percentage="2"></div>
+								</li>
+							</ul>
+						</div>
+						<!-- /centered-block -->
+					</div>
+
+					<!-- 0.6 Ad Spending -->
+					<div class="rsContent " style="background: url(img/final/Citizen_CampaignBook_Locked-Nat-Spending-01.jpg)">
+						<a href="javascript:panelToggle('nav-left');" class="nav-handle lock-section">
+							<img src="images/tab_arrow-left.png">
+						</a>
+						
+					</div>
+
+					<!-- 0.7 Commitment Advertising -->
+					<div class="rsContent no-menutab" style="background-image: url(img/new/Citizen_CampaignBook_Locked-commitment.jpg)">
+						<a href="javascript:panelToggle('nav-left');" class="nav-handle lock-section">
+							<img src="images/tab_arrow-left.png">
+						</a>
+						<header class="testHeader">
+							<div class="center-body">
+							</div>
+						</header>
+						<a href="javascript:panelToggle('nav-left');" class="nav-handle lock-section">
+							<img src="images/tab_arrow-left.png">
+						</a>
+						<div class="adHolder">
+							<a href="javascript:void(0);" class="lrgCircle lrgShadow" data-lightbox="#ad-print">Print</a>
+							<a href="javascript:void(0);" class="lrgCircle lrgShadow" data-lightbox="#ad-social" style="padding-top: 84px;">Social<br>
+								Media</a>
+							<a href="javascript:void(0);" class="lrgCircle lrgShadow" data-lightbox="#ad-digital">Digital</a>
+						</div>
+					</div>
+
+					<!-- 0.8 Ambassadors -->
+					<div class="rsContent no-menutab bg-cover animation text-center" style="background-image: url(images/light-ray-bg.jpg)" data-animation="fade-in">
+						<a href="javascript:panelToggle('nav-left');" class="nav-handle lock-section">
+							<img src="images/tab_arrow-left.png" />
+						</a>
+
+						<a href="javascript:void(0);" style="display: block; z-index: 10; text-align: center; bottom: 40px; text-shadow: none; right: 80px; position: absolute;
+							margin: -106px 0 0 -183px;"
+							class="smlCircle playCircle" data-lightbox="#video-brand-ambassadors"></a>
+
+						<img src="images/ambassadors_headline.png" style="margin-top: 60px">
+						<div class="bg-contain position-absolute fade-in" style="background: url(images/updated-eli.png) no-repeat center center; width: 690px; height: 588px;
+							top: 48%; right: 50%; margin-top: -310px; margin-right: 190px">
+						</div>
+						<div class="bg-contain position-absolute fade-in" style="background: url(images/updated-vic.png) no-repeat center center; width: 662px; height: 567px;
+							top: 53%; right: 50%; margin-top: -80px; margin-right: -70px;">
+						</div>
+						<div class="bg-contain position-absolute fade-in" style="background: url(images/updated-matt.png) no-repeat center center; width: 728px; height: 710px;
+							top: 48%; right: 50%; margin-top: -390px; margin-right: -631px;">
+						</div>
+						<div class="bg-contain position-absolute fade-in" style="background: url(images/Kelly-Clarkson.png) no-repeat center center; width: 768px; height: 740px;
+							top: 48%; right: 50%; margin-top: -210px; margin-right: -1070px;">
+						</div>
+
+					</div>
+
+					<!-- 0.9 Sport Sponsorship -->
+					<div class="rsContent no-menutab" style="background-image: url(img/final/Citizen_CampaignBook_Locked-sportsSponsorship.jpg)">
+						<a href="javascript:panelToggle('nav-left');" class="nav-handle lock-section">
+							<img src="images/tab_arrow-left.png">
+						</a>
+						<a href="javascript:void(0);" style="display: block; z-index: 10; text-align: center; top: 50%; text-shadow: none; left: 50%; position: absolute; margin: -106px 0 0 -183px;"
+							class="smlCircle playCircle" data-lightbox="#video-openhype"></a>
+					</div>
+
+
+					<!-- 1 Mens Launch -->
+					<div class="rsContent " style="background: url(img/final/Citizen_CampaignBook_Mens-Launch-01.jpg)">
+						<a href="javascript:panelToggle('nav-left');" class="nav-handle">
+							<img src="images/tab_arrow-left.png" />
+						</a>
+					</div>
+
+					<!-- 1.1 Sting Ray Primo -->
+					<div class="rsContent " style="background: url(img/final/Citizen_CampaignBook_Primo-01.jpg)">
+						<a href="javascript:panelToggle('nav-left');" class="nav-handle">
+							<img src="images/tab_arrow-left.png">
+						</a>
+						<a href="javascript:void(0);" style="display: block; z-index: 10; text-align: center; bottom: 40px; text-shadow: none; right: 80px; position: absolute;
+							margin: -106px 0 0 -183px;"
+							class="smlCircle inspIcon" data-lightbox="#primo-lbx"></a>
+					</div>
+
+					<!-- 1.1 Sting Ray Primo Cart -->
+					<uc:ProductSlides ID="ProductSlidesPrimo" runat="server" Category="Primo" CategoryName="Primo" LightboxName="#lightbox-Primo" />
+
+
+					<!-- 1.2 Nighthawk -->
+					<div class="rsContent " style="background: url(img/final/Citizen_CampaignBook_Nighthawk-01.jpg)">
+						<a href="javascript:panelToggle('nav-left');" class="nav-handle">
+							<img src="images/tab_arrow-left.png" />
+						</a>
+
+						<a href="javascript:void(0);" style="display: block; z-index: 10; text-align: center; bottom: 40px; text-shadow: none; right: 80px; position: absolute;
+							margin: -106px 0 0 -183px;"
+							class="smlCircle inspIcon" data-lightbox="#nighthawk-lbx"></a>
+					</div>
+
+					<!-- 1.2 Nighthawk Cart -->
+					<uc:ProductSlides ID="ProductSlidesNighthawkAT" runat="server" Category="Nighthawk AT" CategoryName="Nighthawk A&bull;T" LightboxName="#lightbox-nighthawk-at"
+						VideoLightbox="#video-ATStory" />
+
+				</div>
+				<!-- /full-width-slider -->
+			</div>
+			<!-- sliderContainer -->
+		</div>
+		<!-- /content -->
+
+
+		<!-- 0.5 Chart Lightbox -->
+		<div class="lightbox rsNoDrag bg-cover" style="background-image: url(img/new/Citizen_CampaignBook_Instore_Layout-new.jpg)" id="img-top-selling">
+			<a href="javascript:void(0);" class="btn-close rsNoDrag">
+				<img alt=" " src="img/asset/close-black.png" /></a>
+		</div>
+
+		<!-- 0.6 360 video -->
+		<div class="lightbox rsNoDrag" id="video-360-intro">
+			<a href="javascript:void(0);" class="btn-close rsNoDrag">
+				<img alt=" " src="img/asset/close-white.png"></a>
+			<video id="video_2" class="video-js vjs-default-skin no-controls" controls
+				preload="none" width="1920" height="1080" data-setup="{}">
+				<source src="images/videos/DCB_360_Intro.webm" type='video/webm'>
+			</video>
+		</div>
+
+		<!-- 0.7 Commitment Advertising/Print Lightbox -->
+		<div class="lightbox rsNoDrag bg-cover" style="background-image: url(img/new/Citizen_CampaignBook_Locked-Commit-Print.jpg)" id="ad-print">
+			<a href="javascript:void(0);" class="btn-close rsNoDrag">
+				<img alt=" " src="img/asset/close-white.png"></a>
+		</div>
+
+		<!-- 0.7 Commitment Advertising/Television Lightbox -->
+		<div class="lightbox rsNoDrag bg-cover" style="background-image: url(img/new/Citizen_CampaignBook_Locked-Commit-Social.jpg)" id="ad-social">
+			<a href="javascript:void(0);" class="btn-close rsNoDrag">
+				<img alt=" " src="img/asset/close-white.png"></a>
+		</div>
+
+		<!-- 0.7 Commitment Advertising/Digital Lightbox -->
+		<div class="lightbox rsNoDrag bg-cover" style="background-image: url(img/new/Citizen_CampaignBook_Locked-Commit-Digital.jpg)" id="ad-digital">
+			<a href="javascript:void(0);" class="btn-close rsNoDrag">
+				<img alt=" " src="img/asset/close-white.png"></a>
+		</div>
+
+		<!-- 0.8 Ambassadors Video Lightbox -->
+
+		<!-- 0.9 Sports Sponsorship Video Lightbox -->
+
+		<!-- 1.1 Stingray Primo Lightbox -->
+		<div class="lightbox rsNoDrag bg-cover" style="background-image: url(img/final/Citizen_CampaignBook_Primo-02.jpg)" id="primo-lbx">
+			<a href="javascript:void(0);" class="btn-close rsNoDrag">
+				<img alt=" " src="img/asset/close-white.png"></a>
+		</div>
+
+		<!-- 1.2 Nighthawk Lightbox -->
+		<div class="lightbox rsNoDrag bg-cover" style="background-image: url(img/final/Citizen_CampaignBook_Nighthawk-02.jpg)" id="nighthawk-lbx">
+			<a href="javascript:void(0);" class="btn-close rsNoDrag">
+				<img alt=" " src="img/asset/close-white.png"></a>
+		</div>
+		
+		<div class="lightbox rsNoDrag" id="video-openhype">
+			<a href="javascript:void(0);" class="btn-close rsNoDrag">
+				<img alt=" " src="img/asset/close-white.png"></a>
+			<video id="video_1" class="video-js vjs-default-skin no-controls" controls
+				preload="none" width="1920" height="1080" data-setup="{}">
+				<source src="images/videos/US_Open_Hype_v2.webm" type='video/webm'>
+			</video>
+		</div>
+		<!-- /.lightbox -->
+
+		<div class="lightbox rsNoDrag" id="video-howitworks">
+			<a href="javascript:void(0);" class="btn-close rsNoDrag">
+				<img alt=" " src="img/asset/close-white.png"></a>
+			<video id="video_2" class="video-js vjs-default-skin no-controls" controls
+				preload="none" width="1920" height="1080" data-setup="{}">
+				<source src="images/videos/01_HOW_IT_WORKS.webm" type='video/webm'>
+			</video>
+		</div>
+        
+        <div class="lightbox rsNoDrag" id="video-brand-ambassadors">
+			<a href="javascript:void(0);" class="btn-close rsNoDrag">
+				<img alt=" " src="img/asset/close-white.png"></a>
+			<video id="video_3" class="video-js vjs-default-skin no-controls" controls
+				preload="none" width="1920" height="1080" data-setup="{}">
+				<source src="images/videos/02_Brand_Ambassadors_ONLY.webm" type='video/webm'>
+			</video>
+		</div>
+		
+	</div>
+</body>
+</html>
